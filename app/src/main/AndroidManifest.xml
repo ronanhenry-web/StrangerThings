@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Accès data internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Strangerthings"
+        tools:targetApi="31">
+        <!-- Redirection vers l'accueil -->
+        <activity
+            android:parentActivityName="com.strangerthings.MainActivity"
+            android:name="com.strangerthings.InformationsActivity"
+            android:label="Informations"
+            android:exported="false" />
+        <!-- Redirection vers l'accueil -->
+        <activity
+            android:parentActivityName="com.strangerthings.MainActivity"
+            android:name="com.strangerthings.CharactersActivity"
+            android:label="Characters"
+            android:exported="false" />
+        <activity
+            android:name="com.strangerthings.MainActivity"
+            android:label="Accueil"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
