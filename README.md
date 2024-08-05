@@ -1,4 +1,4 @@
-<h1 align="left">Projet Android / Objectif découvert de Kotlin</h1>
+<h1 align="left">Projet Android / Objectif découverte de Kotlin</h1>
 
 <h3 align="left">Installation : cloner le projet puis lancer Android Studio et Run l'application</h3>
 
