@@ -6,7 +6,7 @@ Objectif découverte de Kotlin
 
 Le projet a été créé sous Android Studio, pour le démarrer suivre les étapes suivantes.
 
-Cloner le projet et Run l'application
+- Cloner le projet et Run l'application
 
 ## Sources & Outils
 
