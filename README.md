@@ -1,14 +1,14 @@
-# Projet Stranger Things
+# Stranger Things Project
 
-Objectif découverte de Kotlin
+Aimed at discovering Kotlin
 
-## Démarrer
+## Getting Started
 
-Le projet a été créé sous Android Studio, pour le démarrer suivre les étapes suivantes.
+The project was created using Android Studio. To get it running, follow these steps :
 
-- Cloner le projet et Run l'application
+- Clone the project and run the application
 
-## Sources & Outils
+## Sources & Tools
 
 <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
 
